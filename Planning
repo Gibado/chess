@@ -1,0 +1,11 @@
+#Description of the game
+
+There are 2 players; one with black pieces and one with white pieces.  Each player takes turns moving one piece at a time.  A player must move one of their pieces on each turn.  The player with white pieces goes first.  Each player has 8 pons, 2 rooks, 2 knights, 2 bishops, 1 queen, and 1 king.  No more than 1 piece can occupy a space at a time.  If a piece moves onto a space that already contains an opponents piece then the opponents piece is considered captured and is removed from play.  Each type of piece has a different way of moving.  If a player's king can be captured on the opponent's next turn then the king is considered "in check".  If the player's king is in check at the beginning of the player's turn then they must end the turn without the king in check.  If it's not possible for the king to get out of check then the king is considered "in checkmate" and the player is considered the loser.
+
+This is how each piece can move.
+Pon - Can move forward 1 space.  On the first move they can move forward 2 spaces.  They capture pieces forward diagonally.  Can not capture by moving one space forward.  Can not move over other pieces
+Rook - Can move forward, backward, left, or right without restricting the distance.  Can not move over other pieces.
+Knight - Moves in an "L" pattern; Can move 2 spaces forward, backward, left, or right and then 1 space perpendicular to the original 2 spaces.  Example, move 2 spaces forward and 1 space to the right.  Can move over other pieces.
+Bishop - Can move diagonally in any direction without restricting the distance.  Can not move over other pieces.
+Queen - Can move forward, backward, left, right, or diagonally without restricting the distance.  Can not move over other pieces.  Basically a rook combined with bishop move set.
+King - Can move 1 space forward, backward, left, right, or diagonally.
