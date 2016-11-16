@@ -9,3 +9,46 @@ Knight - Moves in an "L" pattern; Can move 2 spaces forward, backward, left, or 
 Bishop - Can move diagonally in any direction without restricting the distance.  Can not move over other pieces.
 Queen - Can move forward, backward, left, right, or diagonally without restricting the distance.  Can not move over other pieces.  Basically a rook combined with bishop move set.
 King - Can move 1 space forward, backward, left, right, or diagonally.
+
+#Analysis
+#Format
+Object - parentObject (description)
+>variable1
+>variable2
+-method1
+-method2
+
+Player (Controller)
+>color
+>name
+>pieces
+
+Model
+>players
+-scanForCheck
+-scanForCheckmate
+-whosTurn
+
+GameBoard (View)
+-displayBoard
+-displayPlayer
+-displayTurn
+-isPositionTaken
+
+Position
+>x
+>y
+
+Piece
+>player
+>position
+-move
+-isValidMove
+-getValidMoves
+
+Pon - Piece
+Rook - Piece
+Knight - Piece
+Bishop - Piece
+Queen - Piece
+King - Piece
