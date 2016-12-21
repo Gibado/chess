@@ -10,6 +10,8 @@ Bishop - Can move diagonally in any direction without restricting the distance. 
 Queen - Can move forward, backward, left, right, or diagonally without restricting the distance.  Can not move over other pieces.  Basically a rook combined with bishop move set.
 King - Can move 1 space forward, backward, left, right, or diagonally.
 
+Make use of Template Method Sample found here: https://en.wikipedia.org/wiki/Template_method_pattern
+
 #Analysis
 #Format
 Object - parentObject (description)
